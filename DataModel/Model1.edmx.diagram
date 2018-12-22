@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="310cfbc7d44d4b8f957c215556ccf4f2" Name="Diagram1">
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.AP_SUPPLIERS" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.APP_SUPPLIER_SITE_ALL" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFB_ADJUST_FACTOR_HEADER" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFB_ADJUST_FACTOR_LINE" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFB_RATES_MAINT" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFB_RATES_MAINT_L" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFBINVOICE_DETAIL" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFBINVOICE_HEADER" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.BFBINVOICE_LINE" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.CPI_RATES" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.CPPA_USER_ACCESS_HDR" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.CPPA_USER_ACCESS_LINES" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.DOC_REC_ADJUSTMENT" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.DOC_RECEIVING_CLAIMS" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.DOC_RECEIVING_DEPTS_USERS" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.DOC_RECEIVING_HEADER" Width="1.5" PointX="6.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.DOCREC_BLKSFUEL" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.DOCREC_COMPS" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.EVENT_TRACK_HEADERS" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.EVENT_TRACKS_DETAIL" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.EXCH_RATES" Width="1.5" PointX="8.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.EXCRATES_CPI_CURRENCY" Width="1.5" PointX="10.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.EXCRATES_CPI_HEADER" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.FORCE_MAJEOURE_HEADER" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.FORCE_MAJEOURE_LINE" Width="1.5" PointX="18.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.HRS_INV_DETAIL" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INTEREST_DETAILS" Width="1.5" PointX="12.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_ADJUSTMENT" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_BLKS_FUELS" Width="1.5" PointX="20.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_COMPS" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_DIFF_PARENT" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_HEADERS_TL" Width="1.5" PointX="22.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_LINES_TL" Width="1.5" PointX="14.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INV_RATES_TL" Width="1.5" PointX="16.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INVOICE" Width="1.5" PointX="22.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INVOICE_DISCO_BILL_D_T" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INVOICE_DISCO_BILL_H_T" Width="1.5" PointX="4.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.INVOICE_DISCO_BILL_L_T" Width="1.5" PointX="24.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.MDI_ACT_REACT_EN_HEADER" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.MDI_ACT_REACT_EN_LINE" Width="1.5" PointX="24.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.MDINEO_HEADER" Width="1.5" PointX="6.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.MDINEO_LINE" Width="1.5" PointX="8.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_APPLICABLE_INVOICES" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_BLOCKS_FUELS" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_COMP_DEFS" Width="1.5" PointX="26.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_HEADER" Width="1.5" PointX="10.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_HEADER_INTERFACE" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_RENEW_FACT" Width="1.5" PointX="18.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PPA_SLABS" Width="1.5" PointX="26.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PRESENT_RATE_INV_TYPE" Width="1.5" PointX="12.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PRESENT_RATE_LINES" Width="1.5" PointX="14.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PRESENT_RATES_HEADER" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.PRIMARY_INVOICE" Width="1.5" PointX="28.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.Product" Width="1.5" PointX="28.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.REF_TRF_AGREEMENT_YEARS" Width="1.5" PointX="28.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.REF_TRF_COMPONENTS_VAL" Width="1.5" PointX="28.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.REF_TRF_FUEL_BLOCK" Width="1.5" PointX="26.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.REF_TRF_INV_TYPE" Width="1.5" PointX="28.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.REFERENCE_TARIFF_HEADERS" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.SUP_LIB_H_T" Width="1.5" PointX="30.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.SUP_LIB_T" Width="1.5" PointX="30.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.UOSC_RATES_MAINT" Width="1.5" PointX="16.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.WF_HEADER" Width="1.5" PointX="18.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.WF_LINES" Width="1.5" PointX="30.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.ApiUser" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="CPPA_DB_EntityModel.Token" Width="1.5" PointX="3" PointY="0.875" />
+        <AssociationConnector Association="CPPA_DB_EntityModel.FK__Tokens__UserId__6CA31EA0" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
